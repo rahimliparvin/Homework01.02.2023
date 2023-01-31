@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    width: 100%;
+}
+
+#firstcountry {
+    display: flex;
+}
+
+#firstcountry .london {
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+#firstcountry .london img {
+    width: inherit;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#firstcountry .london .days {
+    display: block;
+    text-align: center;
+    color: rgb(185, 11, 104);
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+#firstcountry .london h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#firstcountry .london p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: rgb(153, 151, 151);
+}
+
+#firstcountry .london .londonEnd {
+    width: inherit;
+    height: 50px;
+    margin-top: 20px;
+    background-color: deeppink;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#firstcountry .london .londonEnd ul {
+    display: flex;
+
+}
+
+#firstcountry .london .londonEnd ul li {
+    list-style: none;
+
+}
+
+#firstcountry .london .londonEnd ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#firstcountry .london .londonEnd ul li:nth-child(1) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-bottom-left-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#firstcountry .london .londonEnd ul li:nth-child(1) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .london .londonEnd ul li:nth-child(2) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#firstcountry .london .londonEnd ul li:nth-child(2) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .london .londonEnd ul li:nth-child(3) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .london .londonEnd ul li:nth-child(3) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-bottom-left-radius: 15px;
+    border: none;
+}
+
+#firstcountry .newyork {
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+#firstcountry .newyork img {
+    width: inherit;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#firstcountry .newyork .week {
+    display: block;
+    text-align: center;
+    color: orangered;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+#firstcountry .newyork h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#firstcountry .newyork p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: rgb(153, 151, 151);
+}
+
+#firstcountry .newyork .newyorkEnd {
+    width: inherit;
+    height: 50px;
+    margin-top: 20px;
+    background-color: orangered;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#firstcountry .newyork .newyorkEnd ul {
+    display: flex;
+
+}
+
+#firstcountry .newyork .newyorkEnd ul li {
+    list-style: none;
+
+}
+
+#firstcountry .newyork .newyorkEnd ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#firstcountry .newyork .newyorkEnd ul li:nth-child(1) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-bottom-left-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#firstcountry .newyork .newyorkEnd ul li:nth-child(1) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .newyork .newyorkEnd ul li:nth-child(2) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#firstcountry .newyork .newyorkEnd ul li:nth-child(2) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .newyork .newyorkEnd ul li:nth-child(3) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .newyork .newyorkEnd ul li:nth-child(3) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-bottom-left-radius: 15px;
+    border: none;
+}
+
+#firstcountry .marrakech {
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#firstcountry .marrakech img {
+    width: inherit;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#firstcountry .marrakech .weeks {
+    display: block;
+    text-align: center;
+    color: forestgreen;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+#firstcountry .marrakech h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+#firstcountry .marrakech p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: rgb(153, 151, 151);
+}
+
+#firstcountry .marrakech .marrakechEnd{
+    width: inherit;
+    height: 50px;
+    margin-top: 20px;
+    background-color:forestgreen;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#firstcountry .marrakech .marrakechEnd ul {
+    display: flex;
+
+}
+
+#firstcountry .marrakech .marrakechEnd ul li {
+    list-style: none;
+
+}
+
+#firstcountry .marrakech .marrakechEnd ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#firstcountry .marrakech .marrakechEnd ul li:nth-child(1) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-bottom-left-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#firstcountry .marrakech .marrakechEnd ul li:nth-child(1) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .marrakech .marrakechEnd ul li:nth-child(2) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#firstcountry .marrakech .marrakechEnd ul li:nth-child(2) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+
+#firstcountry .marrakech .marrakechEnd ul li:nth-child(3) a pre {
+    text-align: center;
+    height: 50px;
+    padding-top: 7px;
+    width: 80px;
+}
+#firstcountry .marrakech .marrakechEnd ul li:nth-child(3) {
+    border: 0.2px solid rgb(160, 155, 155);
+    border-bottom-left-radius: 15px;
+    border: none;
+}

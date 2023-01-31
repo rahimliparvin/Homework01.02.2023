@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.container{
+    width: 33.33%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+body{
+    background-color:rgb(187, 180, 180);
+}
+
+#center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+.card{
+    background-color: rgb(75, 72, 72);
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  top: 150px;
+  border: 1px solid rgb(75, 72, 72);
+  border-radius: 15px;
+  box-shadow: 5px 5px yellow;
+}
+
+.card .user{
+    font-size: 90px;
+    position: absolute;
+    left: 85.5px;
+    top: -60px;
+    font-size: 90px;
+    background-color: white;
+    border: 8px solid deeppink;
+    border-radius: 100%;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+
+.card i:hover{
+   
+    background-color: red;
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+
+.card h1{
+    padding-top: 105px;
+    color:deeppink;
+    font-size: 25px;
+    
+}
+.card a{
+    text-decoration: none;
+    color: rgb(167, 161, 161);
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+.card .sp1{
+     font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border:none
+}
+
+.card .sp2{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 1px;
+    color: white;
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top:none ;
+    border-right: none;
+    border-bottom: none;
+}
+.card .social{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card .social li {
+    list-style: none;
+}
+
+.card .social li a{
+text-decoration: none;
+margin-top: 25px;
+}
+.card  .social li:nth-child(1) a i {  
+    font-size: 20px;
+    background-color: deeppink;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+}
+.card  .social li:nth-child(2) a i {  
+    font-size: 20px;
+    background-color: deeppink;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.card  .social li:nth-child(3) a i {  
+    font-size: 20px;
+    background-color: deeppink;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+     margin-left: 20px;
+}
+.card  .social li:nth-child(4) a i {  
+    font-size: 22px;
+    background-color: deeppink;
+    color: white;
+    border-radius: 25px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.card .end .follow{
+    display: flex;
+}
+.card .end .follow li{
+    list-style: none;
+}
+
+.card .end .follow li a{
+   text-decoration: none;
+   font-size: 15px;
+   color: white;   
+  
+}
+.end a:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+.card .end .follow li:nth-child(1) a{
+    margin-top: 5px;
+    margin-left: -20px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid wheat;
+    border: none;
+}
+.card .end .follow li:nth-child(2) a{
+    margin-top: 5px;
+    margin-left: 1px;
+    padding-left: 5px;
+    border: 1px solid wheat;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+
+.end{
+    margin-left: -1px;
+    width: inherit;
+    height: 70px;
+    background-color: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 330px;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+
+}
